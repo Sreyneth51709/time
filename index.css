@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://i.pinimg.com/736x/51/9d/5f/519d5fe27343ccab30de479ee90463a3.jpg'); /* Example */
+    background-size: cover;  /* Optional: ensures it covers the whole screen */
+    background-repeat: no-repeat; /* Optional: prevents tiling */
+    background-position: center center; /* Optional: centers the image */
+}
+
+.hero{
+    padding: 30px 50px;
+    place-content: center;
+    place-items: center;
+   
+}
+.hero h1{
+   text-transform: capitalize;
+   font-weight: bolder;
+   font-size: 50px;
+   
+}
+.hero p{
+    padding: 30px;
+    font-size: 25px;
+    color: white;
+}
+.const{
+    position: absolute;
+    left: 5%;
+    width: 300px;
+    height: 560px;
+    background-color: yellow;
+ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.const:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.const img{
+    width: 200px;
+    height: 100px;
+   position: absolute;
+   left: 15%;
+   top: 10%;
+}
+.const h1{
+   position: absolute;
+   top:30% ;
+   left: 15%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.const p{
+     position: absolute;
+   top:40% ;
+   left: 15%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.const h2{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    font-size: 80px;
+    color: rgb(254, 10, 27);
+}
+
+.const ul li {
+    position:absolute ;
+    top:72% ;
+    left: 17%;
+    
+}
+.ul li{
+     position:absolute ;
+    top:77% ;
+    left:13%;
+   
+}
+.const button{
+    position: absolute;
+    top:85% ;
+    left: 30%;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background-color: rgb(228, 238, 48);
+    color: black;
+}
+.head{
+    position: absolute;
+    left: 22%;
+    top: 20%;
+    width: 300px;
+    height: 560px;
+    background-color: aqua;
+ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.head:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.head img{
+    width: 140px;
+    height: 150px;
+   position: absolute;
+   left: 25%;
+   top: 5%;
+}
+.head h1{
+    text-transform: capitalize;
+   position: absolute;
+   top:30% ;
+   left: 20%;
+   font-size: 40px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head p{
+     position: absolute;
+   top:43% ;
+   left: 20%;
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head h2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 80px;
+    color: rgb(254, 10, 27);
+}
+.head ul li {
+    position:absolute ;
+    top:70% ;
+    left: 30%;
+    
+}
+.ul_1 li{
+     position:absolute ;
+    top:77% ;
+    left: 25%;
+   
+}
+.head button{
+    position: absolute;
+    top:85% ;
+    left: 35%;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background-color: rgb(24, 150, 204);
+    color: white;
+}
+.make{
+    position: absolute;
+    top: 20%;
+    left:39%;
+    width: 300px;
+    height: 560px;
+   background-color: cornflowerblue;
+ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.make:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.make img{
+    width: 200px;
+    height: 180px;
+   position: absolute;
+   left: 15%;
+   top: 6%;
+}
+.make h1{
+   position: absolute;
+   top:30% ;
+   left: 18%;
+   font-size: 40px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.make p{
+     position: absolute;
+   top:43% ;
+   left: 17%;
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.make h2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 80px;
+    color: rgb(254, 10, 27);
+}
+
+.make ul li {
+    position:absolute ;
+    top:72% ;
+    left: 17%;
+    
+}
+.ul_2 li{
+     position:absolute ;
+    top:77% ;
+    left:12%;
+   
+}
+.make button{
+    position: absolute;
+    top:85% ;
+    left: 30%;
+    width: 100px;
+    height: 30px;
+    border: 0;
+  background-color: rgb(54, 92, 163);
+   color: white;
+}
+.make_1{
+    position: absolute;
+    top: 20%;
+    left:56%;
+    width: 300px;
+    height: 560px;
+   background-color: aquamarine;
+ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.make_1:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.make_1 img{
+    width: 180px;
+    height: 215px;
+   position: absolute;
+   left: 20%;
+   top: 3%;
+}
+.make_1 h1{
+   position: absolute;
+   top:30% ;
+   left: 18%;
+   font-size: 40px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.make_1 p{
+     position: absolute;
+   top:43% ;
+   left: 20%;
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.make_1 h2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 80px;
+    color: rgb(254, 10, 27);
+}
+
+.make_1 ul li {
+    position:absolute ;
+    top:72% ;
+    left: 17%;
+    
+}
+.ul_3 li{
+     position:absolute ;
+    top:77% ;
+    left:12%;
+   
+}
+.make_1 button{
+    position: absolute;
+    top:85% ;
+    left: 30%;
+    width: 100px;
+    height: 30px;
+    border: 0;
+  background-color: rgb(108, 215, 180);
+   color: white;
+}
+.make_2{
+    position: absolute;
+    display: flex;
+    top: 20%;
+    left:73%;
+    width: 300px;
+    height: 560px;
+ background-color: antiquewhite;
+ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.make_2:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.make_2 img{
+    width: 180px;
+    height: 210px;
+   position: absolute;
+   left: 20%;
+   top: 0%;
+}
+.make_2 h1{
+   position: absolute;
+   top:30% ;
+   left: 18%;
+   font-size: 40px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.make_2 p{
+     position: absolute;
+   top:43% ;
+   left: 20%;
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.make_2 h2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 80px;
+    color: rgb(254, 10, 27);
+}
+
+.make_2 ul li {
+    position:absolute ;
+    top:72% ;
+    left: 17%;
+    
+}
+.ul_4 li{
+     position:absolute ;
+    top:77% ;
+    left:12%;
+   
+}
+.make_2 button {
+    text-decoration: none;
+    position: absolute;
+    top:85% ;
+    left: 30%;
+    width: 100px;
+    height: 30px;
+    border: 0;
+  background-color: rgb(205, 177, 141);
+   color: white;
+}
