@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero{
+  width: 100%;
+  height: 80px;
+  background-color:gray;
+  position: fixed;
+}
+.header{
+  padding: 10px 10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.header ul li{
+  margin: 10px 15px;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  gap: 30px;
+}
+.header ul li a{
+  text-decoration: none;
+text-transform: capitalize;
+color: white;
+font-size: 25px;
+}
+.header img{
+width: 100px;
+position: absolute;
+left: 5%;
+top: 0%;
+}
+.header svg{
+ color: white;
+font-size: 25px;
+
+}
+.hero button{
+  position: absolute;
+  top: 15%;
+  left: 78%;
+  width: 250px;
+  height: 40px;
+}

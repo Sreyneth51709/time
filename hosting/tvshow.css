@@ -1,0 +1,753 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-video {
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+    position: relative;
+}
+
+.bg-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+.hero {
+    position: fixed;          
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 1000;               
+}
+
+.hero ul li{
+    margin: 30px;
+    display: inline-block;
+   
+}
+.hero ul li a{
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 30px;
+    color: white;
+    gap: 20px;
+}
+.hero ul li a:hover{
+    border-bottom: 5px solid red;
+}
+.hero img{
+    position: absolute;
+    left: 10%;
+    width: 100px;
+    height: 50px;
+}
+.hero input{
+    position: absolute;
+    border-radius: 2px 2px;
+    left: 70%;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    border: 2px solid rgb(239, 206, 42);
+    text-align: center;
+}
+.hero button{
+    position: absolute;
+    left: 87%;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: yellow;
+    color:black;
+    border-radius: 5px;
+}
+.hero button:hover{
+    border: 3px solid rgb(245, 237, 7);
+    background-color:white;
+    color: black;
+    transition: 2s;
+}
+.card h1{
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+    text-indent: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+
+}
+.card post{
+    flex: 0 0 auto;
+    position: relative;
+    width: 280px;
+    height: 90%;
+    top: 7%;
+}
+body{
+    background-color: black;
+}
+.post img{
+    position:absolute;
+    top: 110%;
+    left: 2%;
+    width: 300px;
+    height: 390px;
+}
+.sub{
+    position: absolute;
+    top: 110%;
+    left: 2%;
+    width: 110px;
+    font-weight: bolder;
+    z-index: 1;
+    text-transform:capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 91% 0, 100% 50%, 89% 99%, 0% 100%);
+    background-color:yellow;
+}
+.movie{
+    position: absolute;
+    width: 110px;
+    top: 110%;
+    left: 12%;
+   text-transform: capitalize;
+    font-size:40px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.date{
+    position: absolute;
+    top: 149%;
+    left: 2%;
+    text-transform: capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.time{
+
+position: absolute;
+    width: 110px;
+    top: 150%;
+    left: 12%;
+   text-transform: capitalize;
+    font-size:30px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.post h2{
+    position: absolute;
+    top: 158%;
+    left: 3%;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+.post_1 img{
+    position:absolute;
+    top: 110%;
+    left: 20%;
+    width: 300px;
+    height: 390px;
+}
+.sub_1{
+    position: absolute;
+    top: 110%;
+    left: 20%;
+    width: 110px;
+    font-weight: bolder;
+    z-index: 1;
+    text-transform:capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 91% 0, 100% 50%, 89% 99%, 0% 100%);
+    background-color:yellow;
+}
+.movie_1{
+    position: absolute;
+    width: 110px;
+    top: 110%;
+    left: 30%;
+   text-transform: capitalize;
+    font-size:40px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.date_1{
+    position: absolute;
+    top: 149%;
+    left: 20%;
+    text-transform: capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.time_1{
+
+position: absolute;
+    width: 110px;
+    top: 150%;
+    left: 30%;
+   text-transform: capitalize;
+    font-size:30px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.post_1 h2{
+    position: absolute;
+    top: 155%;
+    left: 21%;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+.post_2 img{
+    position:absolute;
+    top: 110%;
+    left: 38%;
+    width: 300px;
+    height: 390px;
+}
+.sub_2{
+    position: absolute;
+    top: 110%;
+    left: 38%;
+    width: 110px;
+    font-weight: bolder;
+    z-index: 1;
+    text-transform:capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 91% 0, 100% 50%, 89% 99%, 0% 100%);
+    background-color:yellow;
+}
+.movie_2{
+    position: absolute;
+    width: 110px;
+    top: 110%;
+    left: 30%;
+   text-transform: capitalize;
+    font-size:40px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.date_2{
+    position: absolute;
+    top: 149%;
+    left: 38%;
+    text-transform: capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.time_2{
+
+position: absolute;
+    width: 110px;
+    top: 150%;
+    left: 30%;
+   text-transform: capitalize;
+    font-size:30px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.post_2 h2{
+    position: absolute;
+    top: 158%;
+    left: 21%;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+.post_3 img{
+    position:absolute;
+    top: 110%;
+    left: 74%;
+    width: 300px;
+    height: 390px;
+}
+.sub_3{
+    position: absolute;
+    top: 110%;
+    left: 20%;
+    width: 110px;
+    font-weight: bolder;
+    z-index: 1;
+    text-transform:capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 91% 0, 100% 50%, 89% 99%, 0% 100%);
+    background-color:yellow;
+}
+.movie_3{
+    position: absolute;
+    width: 110px;
+    top: 110%;
+    left: 48%;
+   text-transform: capitalize;
+    font-size:40px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.time_3{
+position: absolute;
+    width: 110px;
+    top: 150%;
+    left: 48%;
+   text-transform: capitalize;
+    font-size:30px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.post_3 h2{
+    position: absolute;
+    top: 158%;
+    left: 39%;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+.post_4 img{
+    position:absolute;
+    top: 110%;
+    left: 56%;
+    width: 300px;
+    height: 390px;
+}
+.sub_4{
+    position: absolute;
+    top: 110%;
+    left: 56%;
+    width: 110px;
+    font-weight: bolder;
+    z-index: 1;
+    text-transform:capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 91% 0, 100% 50%, 89% 99%, 0% 100%);
+    background-color:yellow;
+}
+.movie_4{
+    position: absolute;
+    width: 110px;
+    top: 110%;
+    left: 66%;
+   text-transform: capitalize;
+    font-size:40px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.date_4{
+    position: absolute;
+    top: 149%;
+    left: 56%;
+    text-transform: capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.time_4{
+
+position: absolute;
+    width: 110px;
+    top: 150%;
+    left: 66%;
+   text-transform: capitalize;
+    font-size:30px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.post_4 h2{
+    position: absolute;
+    top: 158%;
+    left: 57%;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+.post_5 img{
+    position:absolute;
+    top: 110%;
+    left: 74%;
+    width: 300px;
+    height: 390px;
+}
+.sub_5{
+    position: absolute;
+    top: 110%;
+    left: 74%;
+    width: 110px;
+    font-weight: bolder;
+    z-index: 1;
+    text-transform:capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 91% 0, 100% 50%, 89% 99%, 0% 100%);
+    background-color:yellow;
+}
+.movie_5{
+    position: absolute;
+    width: 110px;
+    top: 110%;
+    left: 84%;
+   text-transform: capitalize;
+    font-size:40px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.date_5{
+    position: absolute;
+    top: 149%;
+    left: 74%;
+    text-transform: capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.time_5{
+position: absolute;
+    width: 110px;
+    top: 150%;
+    left: 84%;
+   text-transform: capitalize;
+    font-size:30px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.post_5 h2{
+    position: absolute;
+    top: 158%;
+    left: 74%;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+.post_6 img{
+    position:absolute;
+    top: 110%;
+    left: 92%;
+    width: 300px;
+    height: 390px;
+}
+.sub_6{
+    position: absolute;
+    top: 110%;
+    left: 92%;
+    width: 110px;
+    font-weight: bolder;
+    z-index: 1;
+    text-transform:capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 91% 0, 100% 50%, 89% 99%, 0% 100%);
+    background-color:yellow;
+}
+.movie_6{
+    position: absolute;
+    width: 110px;
+    top: 110%;
+    left: 100%;
+   text-transform: capitalize;
+    font-size:40px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.date_6{
+    position: absolute;
+    top: 149%;
+    left: 92%;
+    text-transform: capitalize;
+    font-size: 40px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.time_6{
+position: absolute;
+    width: 110px;
+    top: 150%;
+    left: 100%;
+   text-transform: capitalize;
+    font-size:30px ;
+   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    background-color:yellow;
+}
+.post_6 h2{
+    position: absolute;
+    top: 158%;
+    left: 95%;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    width: 200px;
+  
+}
+.new-mv{
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+}
+.new-mv h1{
+    position: absolute;
+    top: 168%;
+    left: 3%;
+  color: yellow;
+font-size: 40px;
+text-transform: uppercase;
+    
+}
+hr{
+
+    color: white;
+    width: 90%;
+    height: 5px;
+    left: 17%;
+    position: absolute;
+    top:172% ;
+}
+.one img{
+    top: 175%;
+    left: 3%;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+.one h2{
+    position: absolute;
+    top:176%;
+    left: 13%;
+    z-index: 1;
+    text-transform:capitalize;
+    width: 200px;
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+.comming h1{
+    position: absolute;
+    top: 176%;
+    z-index: 1;
+    left: 28%;
+    color: white;
+    text-transform: capitalize;
+}
+.comming p{
+    position: absolute;
+    top: 183%;
+    left: 27%;
+    color: rgb(63, 51, 8);
+    z-index: 1;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.comming button {
+    position: absolute;
+    top:228% ;
+    left: 28%;
+    width: 200px;
+    height: 40px;
+    border: 2px solid hsl(56, 98%, 50%);
+    background-color:black;
+    border-radius: 5px;
+    color:hsl(56, 98%, 50%) ;
+    font-size: 20px;
+
+}
+.one_1 img{
+    top: 175%;
+    left: 60%;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+.one_1 h2{
+    position: absolute;
+    top:176%;
+    left:70%;
+    z-index: 1;
+    text-transform:capitalize;
+    width: 200px;
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+.comming_1 h1{
+    position: absolute;
+    top: 176%;
+    z-index: 1;
+    left: 85%;
+    color: white;
+    text-transform: capitalize;
+}
+.comming_1 p{
+    position: absolute;
+    top: 183%;
+    left: 83%;
+ white-space: nowrap;
+
+    color: rgb(63, 51, 8);
+    z-index: 1;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.comming_1 button {
+    position: absolute;
+    top:228% ;
+    left: 87%;
+    width: 200px;
+    height: 40px;
+    border: 2px solid hsl(56, 98%, 50%);
+    background-color:black;
+    border-radius: 5px;
+    color:hsl(56, 98%, 50%) ;
+    font-size: 20px;
+
+}
+.one_2 img{
+    top: 240%;
+    left: 3%;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+.one_2 h2{
+    position: absolute;
+    top:241%;
+    left: 13%;
+    z-index: 1;
+    text-transform:capitalize;
+    width: 200px;
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+.comming_2 h1{
+    position: absolute;
+    top: 240%;
+    z-index: 1;
+    left: 25%;
+    color: white;
+    text-transform: capitalize;
+}
+.comming_2 p{
+    position: absolute;
+    top: 247%;
+    left: 27%;
+    color: rgb(63, 51, 8);
+    z-index: 1;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.comming_2 button {
+    position: absolute;
+    top:292% ;
+    left: 28%;
+    width: 200px;
+    height: 40px;
+    border: 2px solid hsl(56, 98%, 50%);
+    background-color:black;
+    border-radius: 5px;
+    color:hsl(56, 98%, 50%) ;
+    font-size: 20px;
+
+}
+.one_3 img{
+    top: 240%;
+    left: 60%;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+.one_3 h2{
+    position: absolute;
+    top:241%;
+    left:70%;
+    z-index: 1;
+    text-transform:capitalize;
+    width: 200px;
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+.comming_3 h1{
+    position: absolute;
+    top: 240%;
+    z-index: 1;
+    left: 85%;
+    color: white;
+    text-transform: capitalize;
+}
+.comming_3 p{
+    position: absolute;
+    top: 247%;
+    left: 83%;
+ white-space: nowrap;
+
+    color: rgb(63, 51, 8);
+    z-index: 1;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.comming_3 button {
+    position: absolute;
+    top:292% ;
+    left: 87%;
+    width: 200px;
+    height: 40px;
+    border: 2px solid hsl(56, 98%, 50%);
+    background-color:black;
+    border-radius: 5px;
+    color:hsl(56, 98%, 50%) ;
+    font-size: 20px;
+
+}
+.foot-con h1{
+    position: absolute;
+    top:305%;
+    left: 5%;
+    z-index: -1;
+    color: white;
+    font-size: 70px;
+}
+.k{
+    position: absolute;
+    top: 315%;
+    left: 9%;
+}
+.k ul li{
+    
+    margin-top: 30px;
+    list-style: none;
+}
+.k ul li a{
+    text-decoration: none;
+   text-transform: capitalize;
+   color: white;
+   font-size: 50px;
+}
+.h1{
+    position: absolute;
+    top: 0%;
+    left: 90%;
+}
+
+
